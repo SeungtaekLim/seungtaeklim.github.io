@@ -1,0 +1,85 @@
+/* Reset 기본값 제거 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* 제목 */
+h1, h2, h3 {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* 링크 */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 섹션 스타일 */
+section {
+  margin-bottom: 40px;
+}
+
+/* 이미지 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* 목록 */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* 깔끔한 박스 */
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 60px;
+}
